@@ -1,0 +1,104 @@
+@import url('https://fonts.cdnfonts.com/css/circe-rounded');
+
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 100%;
+  background: var(--light);
+  z-index: 2000;
+  font-family: var(--lato);
+  transition: .3s ease;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: #323854;
+  font-family: 'Circe Rounded', sans-serif;
+}
+
+.brand {
+  width: 130px;
+}
+
+#sidebar .side-menu li a {
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 48px;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  padding: 8px;
+}
+
+#sidebar .side-menu.top {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+}
+
+#sidebar .side-menu.flex {
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center
+}
+
+#sidebar .menu-img {
+  margin-right: 10px
+}
+
+#sidebar .side-menu a:hover {
+  background: #8D7FC7;
+  color: #fff;
+}
+
+#sidebar .block-gift {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px 40px;
+  position: relative;
+  border-radius: 20px 20px 150px 150px;
+
+}
+
+#sidebar .block-gift p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 9px;
+  margin-bottom: 11px;
+}
+
+#sidebar .block-gift button {
+  border-radius: 30px 30px;
+  padding: 10px 20px;
+  background: #D8ECFF;
+}
+
+#sidebar .block-gift .gift-img {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 80px;
+  border-radius: 20px 0;
+}

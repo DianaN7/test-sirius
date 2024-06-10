@@ -1,0 +1,11 @@
+.profile-data {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+h3 {
+  font-size: 19px;
+}

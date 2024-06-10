@@ -1,0 +1,27 @@
+#content {
+  position: relative;
+  width: calc(100% - 280px);
+  left: 280px;
+  transition: .3s ease;
+  font-family: 'Circe Rounded', sans-serif;
+  color: #323854;
+}
+
+#content nav {
+  height: 56px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  grid-gap: 24px;
+  justify-content: space-between;
+}
+
+#content .nav-select {
+  padding: 10px 120px 10px 10px;
+}
+
+#content .desc-nav {
+  background: #DECFFF;
+  padding: 8px 90px;
+  border-radius: 40px;
+}

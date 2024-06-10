@@ -1,0 +1,194 @@
+.main-img {
+  margin-top: 15px;
+}
+
+.main-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.first-pic {
+  width: 39%;
+}
+
+.second-block {
+  background: #FFF1CB;
+  display: flex;
+  align-items: center;
+  padding: 19px 20px;
+  width: 35%;
+  height: 228px;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 40px;
+
+  @media (max-width:760px) {
+    display: none;
+  }
+}
+
+.info-p {
+  font-size: 19px;
+}
+
+.big {
+  font-size: 30px;
+}
+
+.main-btn {
+  border-radius: 20px;
+  padding: 8px 70px;
+  border: 1px dashed #323854;
+  font-weight: 300;
+}
+
+.small {
+  margin-bottom: 5px;
+  margin-right: 10px;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.info-date {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.schedule-lesson {
+  margin-top: 20px;
+  width: 30%;
+  border: 1px solid #7362BC;
+  border-radius: 20px;
+  padding: 10px 20px;
+
+  @media (max-width:760px) {
+    display: none;
+  }
+}
+
+.upcoming-lesson {
+  width: 60%;
+  margin-top: 20px;
+  border: 1px solid #7362BC;
+  border-radius: 20px;
+  padding: 10px 20px;
+
+  @media (max-width:760px) {
+    display: none;
+  }
+}
+
+.lessons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+.upcoming-desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+
+.user-icon {
+  font-weight: 300;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  padding: 27px 0;
+  margin-bottom: 9px;
+}
+
+.small-lesson {
+  padding: 27px 0;
+  font-size: 12px;
+  margin-bottom: 7px;
+
+}
+
+.name-les {
+  padding: 27px 0;
+}
+
+.info-lesson {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.time-lesson {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-user {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-us {
+  margin-right: 3px;
+}
+
+.btn-block {
+  padding: 23px 0;
+}
+
+.color-btn:hover {
+  font-size: 15px;
+  background: #8D7FC7;
+  padding: 5px 12px;
+  border-radius: 19px;
+  color: #fff
+}
+
+.color-btn {
+  font-size: 15px;
+  border: 1px solid #8D7FC7;
+  margin-left: 10px;
+  padding: 5px 12px;
+  border-radius: 19px;
+
+}
+
+.p-lesson {
+  font-size: 22px;
+}
+
+.les-block {
+  margin-top: 10px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button-last {
+  background: #DECFFF;
+  border-radius: 30px;
+  padding: 8px 120px;
+
+  @media (max-width:960px) {
+    display: none;
+  }
+}
+
+.btn-l {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.les-block.more {
+  margin-bottom: 21px;
+}

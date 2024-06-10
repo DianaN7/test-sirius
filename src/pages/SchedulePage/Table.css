@@ -1,0 +1,135 @@
+.table-cal {
+  margin-top: 1rem;
+  border-collapse: collapse;
+  background: white;
+  width: 98%;
+  position: relative;
+  color: #323854;
+}
+
+.top-th {
+  padding: 3px 3px;
+  color: #79747F;
+
+}
+
+
+th,
+td {
+  padding: 3px 2px;
+  font-weight: bold;
+}
+
+.table-body {
+  border-top: 1px solid #C8C5CD;
+}
+
+.table-notactive {
+  color: #C8C5CD;
+}
+
+.table-p {
+  font-size: 9px;
+  display: flex;
+  justify-content: space-between;
+  color: #323854;
+}
+
+.calendar-info {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.calendar-info p {
+  padding: 0 10px;
+  font-size: 19px;
+}
+
+.calendar-info button {
+  margin-left: 30px;
+  padding: 9px 28px;
+  border: 1px solid #8D7FC7;
+  border-radius: 30px;
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.table-data {
+  color: #C8C5CD;
+  display: flex;
+  position: relative;
+  font-size: 9px;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.data-active {
+  color: #323854;
+  display: flex;
+  position: relative;
+  font-size: 9px;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.border-first {
+  padding: 3px 2px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  border: 1px solid #22782B;
+  border-radius: 4px;
+}
+
+.border:hover {
+  border: 1px solid #8D7FC7;
+}
+
+.border-red {
+  padding: 2px 2px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  border: 1px solid #E12828;
+  border-radius: 4px;
+}
+
+.border-red:hover {
+  border: 1px solid #8D7FC7;
+}
+
+.border-trans {
+  padding: 2px 2px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  border: 1px solid #DECFFF;
+  border-radius: 4px;
+}
+
+.border-trans:hover {
+  border: 1px solid #8D7FC7;
+}
+
+.border-green {
+  padding: 2px 2px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  background: #D7F0D6;
+  border: 1px solid #BBE7B9;
+  border-radius: 4px;
+}
+
+.border-green:hover {
+  border: 1px solid #8D7FC7;
+}
+
+
+.border-green.void {
+  opacity: 0;
+}
+
+.arrow {
+  cursor: pointer;
+}

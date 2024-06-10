@@ -1,0 +1,26 @@
+.profile-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.linkhome {
+  padding: 0px 20px;
+}
+
+.linkprofile {
+  background: #D7F0D6;
+  border-radius: 30px;
+  padding: 10px 16px;
+}
+
+.navContainer {
+  padding: 10px;
+}
+
+.home-icon {
+  border: 1px solid #afcfae;
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+}
