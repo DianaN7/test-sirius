@@ -220,8 +220,8 @@ const Auth = () => {
               </div>
 
               <button disabled={loading} className={button}>
-                {authType === 'login' ? 'Войти с' : 'Зарегистрироваться с'}
-                Email
+                {authType === 'login' ? 'Войти с ' : 'Зарегистрироваться с '}
+                email
               </button>
             </div>
 
